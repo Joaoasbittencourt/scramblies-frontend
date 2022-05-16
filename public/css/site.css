@@ -1,0 +1,93 @@
+html {
+  background-color: rgb(252, 252, 252);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(50, 50, 50);
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 72px;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.card {
+  background-color: white;
+  max-width: 600px;
+  border: 1px solid lightgray;
+  padding: 1.5rem;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.success {
+  background-color: rgb(180, 245, 198);
+  border: 1px solid rgb(138, 215, 158);
+}
+
+.not-valid {
+  background-color: rgb(225, 225, 225);
+  border: 1px solid rgb(138, 138, 138);
+}
+
+.error {
+  background-color: rgb(250, 148, 148);
+  border: 1px solid rgb(219, 104, 104);
+}
+
+.yellow {
+  color: #c29a3d;
+}
+
+input {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid lightgray;
+  background-color: rgb(252, 252, 252);
+}
+
+button {
+  color: white;
+  background-color: #c29a3d;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  transition: 0.1s;
+}
+
+button:hover {
+  color: white;
+  background-color: #c29a3d;
+  transition: 0.1s;
+}
+
+button:disabled {
+  background-color: rgb(214, 214, 214);
+  color: rgb(84, 84, 84);
+}
